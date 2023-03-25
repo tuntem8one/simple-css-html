@@ -7,24 +7,31 @@
 </head>
 <body>
 <nav>
-    <a href="index.html">MAIN</a>
-    <a href="info.html">INFO</a>
+    <a href="index.html">MAIN</a> |
     <a href="contact.html">CONTACT ME</a>
 </nav>
 <br>
-<h2>Contact me:</h2>
-<form action="index.html">
-    <label for="yourName">Your Name:</label>
-    <input type="text" id="yourName" placeholder="write your name here">
-    <br>
-    <label for="yourEmail">Your Email:</label>
-    <input type="email" id="yourEmail" placeholder="write your email here">
-    <br>
-    <label for="msg">Your Message:</label> <br>
-    <textarea type="text" id="msg" placeholder="any message from you to me"></textarea>
-    <br>
-    <input type="submit" value="Send your Data">
-</form>
-
+<div class="container">
+    <div class="card">
+    <h3>Contact me:</h3>
+    <form action="index.html">
+        <div class="row">
+            <div class="formac">
+                <label for="yourName">Your Name:</label>
+                <input type="text" id="yourName" placeholder="write your name here">
+            </div>
+            <div class="formac">
+                <label for="yourEmail">Your Email:</label>
+                <input type="email" id="yourEmail" placeholder="write your email here">
+            </div>
+        </div>
+        <div class="formac">
+            <label for="msg">Your Message:</label>
+            <textarea type="text" id="msg" placeholder="any message from you to me"></textarea>
+        </div>
+        <input type="submit" value="Send your Data">
+    </form>
+</div>
+</div>
 </body>
 </html>
