@@ -34,5 +34,23 @@ nav {
 .info p {
     /* all <p>'s in div class info */
     color:#89868f;
+    margin: 0;
+    font-style: oblique;
+    font-weight: normal;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+}
+.social {
+    background: pink;
+    width: 100%;
+    padding: 0px 20px;
+    border: 5px solid crimson;
+    margin: 10px 0px;
+
+}
+
+.container {
+    width: 60%;
+    margin: auto;
 
 }
